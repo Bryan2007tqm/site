@@ -1,0 +1,38 @@
+body{
+    font-family: Optima, Segoe,"segoe UI"; /*CON ESTO DEFINIMOS EL TIPO DE LETRA*/
+    font-weight: bold;/*para poner el text en negritas*/
+    font-size:larger;
+    background: #e8e8e8;/* CON ESTO ESCOGEMOS EL COLOR DE LA BARRA DE INICIO*/
+
+}
+
+.menu{
+list-style: none;
+padding:0;
+background: #9acd32;/*le ponemos color al la barra de menu*/
+width: 100%;
+max-width: 1920px;/*el tamaño en píxeles que ocupará la barra de menú*/
+margin: auto;
+
+}
+
+.menu li a{
+
+    text-decoration:none;/*quitamos la decoracion del texto de enlace (la rayita debajo del texto)*/
+    color: black;/*ponemos color al texto*/
+    padding: 15px; /*para tener el espacio suficiente enters letras*/
+    display: block;
+
+}
+
+.menu li{/* re3gla para cada item de nuestra lista desordenada */
+    display:inline-block;/*con esto ponemos a lo largo el texto*/
+    text-align:center;/*con esto ponemos el texto de la barra al centro*/
+
+}
+
+.menu li a:hover{/*esto es practicamente para q cuando pasemos el cursor por el menu, 
+cambie de color la opcion sobre la que se encuentra el cursor, el color se define abajo*/
+    background: #6B8E23;
+}
+
